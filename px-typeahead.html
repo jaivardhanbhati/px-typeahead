@@ -23,55 +23,6 @@ Element providing solution to no problem in particular. As a simple example, inc
 <dom-module id="px-typeahead">
   <link rel="import" type="css" href="css/noprefix/px-typeahead.css"/>
   <link rel="import" type="css" href="css/noprefix/px-typeahead-sketch.css"/>
-  <!--<style>
-      /*:host {
-        display: block;
-        box-sizing: border-box;
-      }*/
-      .fa-search {
-        position: absolute;
-        left: 235px;
-        padding: 1px;
-      }
-      ul{
-      list-style-type: none;
-      padding-left: 0;
-      }
-      li{
-        cursor: pointer;
-      }
-      /*input{
-        position: relative;
-        border : 1px solid #eee;
-        height: 25px;
-        overflow-y : auto;
-        text-overflow:ellipsis;
-        width: 250px;
-      }*/
-      .iron-selected{
-        background: #eee;
-      }
-      .item-selected{
-        background: #5882FA;
-      }
-      input:focus { 
-      border : 1px solid blue;
-      }
-      .container {
-        display: inline-block;
-        position: relative;
-        padding-left: 10px;
-        padding-right: 10px;
-        overflow:auto;
-        max-height:200px;
-        background-color: #EFF3F2;
-        z-index: 1000;
-      }
-      .container:empty {
-        display: none;
-      }
-    </style> -->
-
   <template>
     <template is="dom-if" if="{{label}}">
      <h3>{{label}} {{maxSuggestions}}</h3>
