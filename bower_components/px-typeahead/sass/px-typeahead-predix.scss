@@ -27,6 +27,12 @@ common/abstract rules go in px-typeahead-sketch.scss, not in this file.
 .extdiv {
 	background-color: $gray1;
 	justify-content:flex-end;
+  &:focus {
+    outline-color: rgb(77, 144, 254); // #4D90FE
+    outline-offset: -2px;
+    outline-style: auto;
+    outline-width: 5px;
+  }
 }
 .search {
   position: relative;
@@ -42,7 +48,6 @@ common/abstract rules go in px-typeahead-sketch.scss, not in this file.
   overflow: hidden;
   vertical-align: text-top;
   outline: none;
-  font-family: "GE Inspira Sans", sans-serif;
 }
 /*.search:before {
   position: absolute;
