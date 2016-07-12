@@ -2728,8 +2728,73 @@ textarea {
 :host {
   cursor: pointer;
   overflow: hidden;
-  flex: 1 1 auto;
-  max-height: 2.0666666667rem; }
+  max-height: 2.0666666667rem;
+  font-family: "GE Inspira Sans", sans-serif; }
+
+/**
+ * Margin and padding helper classes. Use these to tweak layout on a micro
+ * level.
+ *
+ * `.u-(m|p)(t|r|b|l|h|v)(-|+|0) {}` = utility - margin/padding top/right/bottom/left/horizontal/vertical less/more/none
+ */
+/**
+     * Add small paddings.
+     */
+.u-p- {
+  padding: 0.6666666667rem !important; }
+
+.u-pt- {
+  padding-top: 0.6666666667rem !important; }
+
+.u-pr- {
+  padding-right: 0.6666666667rem !important; }
+
+.u-pb- {
+  padding-bottom: 0.6666666667rem !important; }
+
+.u-pl- {
+  padding-left: 0.6666666667rem !important; }
+
+.u-ph- {
+  padding-right: 0.6666666667rem !important;
+  padding-left: 0.6666666667rem !important; }
+
+.u-pv- {
+  padding-top: 0.6666666667rem !important;
+  padding-bottom: 0.6666666667rem !important; }
+
+/**
+     * Add large paddings.
+     */
+.u-p\00002b
+{
+  padding: 1.3333333333rem !important; }
+
+.u-pt\00002b
+{
+  padding-top: 1.3333333333rem !important; }
+
+.u-pr\00002b
+{
+  padding-right: 1.3333333333rem !important; }
+
+.u-pb\00002b
+{
+  padding-bottom: 1.3333333333rem !important; }
+
+.u-pl\00002b
+{
+  padding-left: 1.3333333333rem !important; }
+
+.u-ph\00002b
+{
+  padding-right: 1.3333333333rem !important;
+  padding-left: 1.3333333333rem !important; }
+
+.u-pv\00002b
+{
+  padding-top: 1.3333333333rem !important;
+  padding-bottom: 1.3333333333rem !important; }
 
 /*------------------------------------*    #CLEARFIX
 \*------------------------------------*/
@@ -2750,11 +2815,227 @@ textarea {
  * `.u-[breakpoint]-(m|p)(t|r|b|l|h|v)(-|+|0) {}` = utility - breakpoint - margin/padding top/right/bottom/left/horizontal/vertical less/more/none
  */
 /**
- * Margin and padding helper classes. Use these to tweak layout on a micro
- * level.
- *
- * `.u-(m|p)(t|r|b|l|h|v)(-|+|0) {}` = utility - margin/padding top/right/bottom/left/horizontal/vertical less/more/none
- */
+     * Add small margins.
+     */
+@media screen and (max-width: 47.9rem) {
+  .u-palm-m- {
+    margin: 0.6666666667rem !important; }
+  .u-palm-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-palm-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-palm-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-palm-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-palm-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-palm-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+@media screen and (min-width: 48rem) and (max-width: 63.9rem) {
+  .u-lap-m- {
+    margin: 0.6666666667rem !important; }
+  .u-lap-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-lap-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-lap-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-lap-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-lap-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-lap-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+@media screen and (min-width: 48rem) {
+  .u-lap-and-up-m- {
+    margin: 0.6666666667rem !important; }
+  .u-lap-and-up-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-lap-and-up-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-lap-and-up-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-lap-and-up-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-lap-and-up-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-lap-and-up-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+@media screen and (max-width: 63.9rem) {
+  .u-portable-m- {
+    margin: 0.6666666667rem !important; }
+  .u-portable-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-portable-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-portable-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-portable-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-portable-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-portable-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+@media screen and (min-width: 63.9rem) {
+  .u-desk-m- {
+    margin: 0.6666666667rem !important; }
+  .u-desk-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-desk-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-desk-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-desk-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-desk-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-desk-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+@media screen and (min-width: 100%) {
+  .u-desk-wide-m- {
+    margin: 0.6666666667rem !important; }
+  .u-desk-wide-mt- {
+    margin-top: 0.6666666667rem !important; }
+  .u-desk-wide-mr- {
+    margin-right: 0.6666666667rem !important; }
+  .u-desk-wide-mb- {
+    margin-bottom: 0.6666666667rem !important; }
+  .u-desk-wide-ml- {
+    margin-left: 0.6666666667rem !important; }
+  .u-desk-wide-mh- {
+    margin-right: 0.6666666667rem !important;
+    margin-left: 0.6666666667rem !important; }
+  .u-desk-wide-mv- {
+    margin-top: 0.6666666667rem !important;
+    margin-bottom: 0.6666666667rem !important; } }
+
+/**
+     * Add large margins.
+     */
+@media screen and (max-width: 47.9rem) {
+  .u-palm-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-palm-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-palm-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-palm-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-palm-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-palm-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-palm-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
+@media screen and (min-width: 48rem) and (max-width: 63.9rem) {
+  .u-lap-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-lap-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-lap-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-lap-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-lap-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-lap-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-lap-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
+@media screen and (min-width: 48rem) {
+  .u-lap-and-up-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-lap-and-up-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-lap-and-up-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-lap-and-up-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-lap-and-up-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-lap-and-up-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-lap-and-up-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
+@media screen and (max-width: 63.9rem) {
+  .u-portable-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-portable-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-portable-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-portable-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-portable-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-portable-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-portable-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
+@media screen and (min-width: 63.9rem) {
+  .u-desk-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-desk-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-desk-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-desk-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-desk-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-desk-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-desk-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
+@media screen and (min-width: 100%) {
+  .u-desk-wide-m\+ {
+    margin: 1.3333333333rem !important; }
+  .u-desk-wide-mt\+ {
+    margin-top: 1.3333333333rem !important; }
+  .u-desk-wide-mr\+ {
+    margin-right: 1.3333333333rem !important; }
+  .u-desk-wide-mb\+ {
+    margin-bottom: 1.3333333333rem !important; }
+  .u-desk-wide-ml\+ {
+    margin-left: 1.3333333333rem !important; }
+  .u-desk-wide-mh\+ {
+    margin-right: 1.3333333333rem !important;
+    margin-left: 1.3333333333rem !important; }
+  .u-desk-wide-mv\+ {
+    margin-top: 1.3333333333rem !important;
+    margin-bottom: 1.3333333333rem !important; } }
+
 /**
  * A series of width helper classes that you can use to size things like grid
  * systems. Classes can take a fraction-like format (e.g. `.u-2/3`) or a spoken-
@@ -3067,18 +3348,25 @@ textarea {
     width: 83.3333333333% !important;
     flex: none !important; } }
 
+.extdiv {
+  background-color: #f7f7fc;
+  justify-content: flex-end; }
+
 .search {
   position: relative;
   background-color: #f7f7fc;
-  border: 1px solid #b1b1bc;
+  border: 0;
+  width: 100%;
   border-radius: 3px;
-  height: 25px;
+  height: 2rem;
   color: black;
-  max-height: 2.0666666667rem;
+  max-height: 14.8rem;
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
-  vertical-align: text-top; }
+  vertical-align: text-top;
+  outline: none;
+  font-family: "GE Inspira Sans", sans-serif; }
 
 /*.search:before {
   position: absolute;
@@ -3089,10 +3377,8 @@ textarea {
 
 }*/
 .fa-search {
-  position: absolute;
-  padding: 3px;
-  z-index: 1;
-  left: 32%; }
+  position: relative;
+  z-index: 1; }
 
 .container ul {
   list-style-type: none;
@@ -3101,14 +3387,16 @@ textarea {
   margin: 0;
   max-height: 14.8rem;
   overflow-y: auto;
-  z-index: 1;
+  z-index: 2;
   background-color: #f7f7fc;
   border-radius: 3px;
   color: black;
-  border: 1px solid #b1b1bc; }
+  border: 1px solid #b1b1bc;
+  position: absolute; }
   .container ul li {
     text-overflow: ellipsis;
     cursor: pointer;
+    outline: none;
     /* white-space: nowrap; */
     padding: 0.3333333333rem; }
     .container ul li.item-selected {
