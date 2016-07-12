@@ -36,14 +36,20 @@ Predix branding rules go in px-typeahead-predix.scss, not in this file.
 :host {
   cursor: pointer;
   overflow: hidden;
-  flex: 1 1 auto;
   max-height: calculateRem(31px);
+  font-family: "GE Inspira Sans", sans-serif;
 }
 
 
 
 
 // Component
+$inuit-enable-paddings--small: true;
+$inuit-enable-paddings--large : true;
+$inuit-enable-responsive-margins--small : true;
+$inuit-enable-responsive-margins--large : true;
+
+@import "px-spacing-design/_trumps.spacing.scss";
 
 // Trumps
 @import "inuit-clearfix/_trumps.clearfix.scss";
